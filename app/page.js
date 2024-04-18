@@ -1,7 +1,6 @@
 import Head from "next/head";
 import dynamic from "next/dynamic";
 
-export const revalidate = 0;
 const Chat = dynamic(() => import("@/components/Chat"), {
   ssr: false,
 });
