@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useChannel } from "ably/react";
-import styles from "./ChatBox.module.css";
+import styles from "./Chatbox.module.css";
 
 export default function ChatBox() {
   const [messageText, setMessageText] = useState("");
